@@ -13,7 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: change dir
-      run: cd RunCPM
-    - name: make
-      run: make posix build
+    - name: compile posix version
+      run: cd RunCPM && make posix build
