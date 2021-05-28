@@ -16,4 +16,4 @@ jobs:
     - name: change dir
       run: cd RunCPM
     - name: make
-      run: make linux build
+      run: make posix build
